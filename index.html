@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcul de la Température de l’air Corrigée</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calcul de la Température de l’air Corrigée (TAC)</h1>
+    <form id="tacForm">
+        <label>Température mesurée à l’ombre (°C): 
+            <input type="number" step="0.1" id="temperature" required>
+        </label><br>
+
+        <label>Humidité relative (%): 
+            <input type="number" step="1" id="humidity" required>
+        </label><br>
+
+        <label>Source des données et exposition:
+            <select id="exposition">
+                <option value="mesure_soleil">Mesures sur place - Soleil</option>
+                <option value="mesure_ombre">Mesures sur place - Nuage/Ombre</option>
+                <option value="mesure_interieur">Mesures sur place - Intérieur</option>
+                <option value="meteo_soleil">Météo régionale - Soleil</option>
+                <option value="meteo_ombre">Météo régionale - Nuage/Ombre</option>
+            </select>
+        </label><br>
+
+        <label>
+            <input type="checkbox" id="combinaison"> Port d'une combinaison en coton (survêtement)
+        </label><br>
+
+        <label>Type de travail:
+            <select id="travail">
+                <option value="leger">Léger</option>
+                <option value="moyen">Moyen</option>
+                <option value="lourd">Lourd</option>
+            </select>
+        </label><br>
+
+        <button type="submit">Calculer</button>
+    </form>
+
+    <div id="resultat"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

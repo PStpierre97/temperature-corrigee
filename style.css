@@ -1,0 +1,18 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+label {
+    display: block;
+    margin: 10px 0;
+}
+#resultat {
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+.vert { background-color: #b2fab4; }
+.vert-pale { background-color: #d0f0c0; }
+.jaune { background-color: #fff59d; }
+.rouge { background-color: #ef9a9a; }
