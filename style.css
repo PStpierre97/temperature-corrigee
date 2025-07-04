@@ -1,18 +1,68 @@
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px;
+    background-color: #f9f9f9;
+    color: #333;
 }
+
+h1 {
+    text-align: center;
+    color: #00695c;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
 label {
     display: block;
-    margin: 10px 0;
+    margin: 15px 0 5px;
 }
-#resultat {
-    margin-top: 20px;
-    padding: 10px;
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #00796b;
+    color: white;
     font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
 }
+
+button:hover {
+    background-color: #004d40;
+}
+
+#resultat {
+    margin-top: 30px;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
 .vert { background-color: #b2fab4; }
 .vert-pale { background-color: #d0f0c0; }
 .jaune { background-color: #fff59d; }
 .rouge { background-color: #ef9a9a; }
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cnesst-image {
+    width: 150px;
+    margin-bottom: 10px;
+}

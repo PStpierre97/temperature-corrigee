@@ -1,4 +1,3 @@
-
 document.getElementById('tacForm').addEventListener('submit', function(e) {
     e.preventDefault();
 
@@ -53,7 +52,7 @@ document.getElementById('tacForm').addEventListener('submit', function(e) {
     else hydratation = '1 verre toutes les 10 minutes';
 
     document.getElementById('resultat').className = classe;
-    document.getElementById('resultat').innerHTML = 
+    document.getElementById('resultat').innerHTML =
         `🌡️ Température de l’air corrigée : ${tac.toFixed(1)} °C<br>` +
         `📊 ${zone}<br>` +
         `💧 Hydratation recommandée : ${hydratation}`;
