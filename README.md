@@ -1,8 +1,8 @@
 # 🌡️ Application Web – Température de l’Air Corrigée (TAC) / Corrected Air Temperature Web App
 
-Cette application web permet de **calculer la température de l’air corrigée (TAC)** selon les recommandations de la **CNESST** pour évaluer les risques liés au travail en conditions de chaleur.
+Cette application web permet de **calculer la température de l’air corrigée (TAC)** selon les recommandations de la **CNESST** pour évaluer les risques liés au travail en conditions de chaleur. Disponible en français seulement.
 
-This web application calculates the **Corrected Air Temperature (TAC)** based on **CNESST** guidelines to assess heat-related risks in the workplace.
+This web application calculates the **Corrected Air Temperature (TAC)** based on **CNESST** guidelines to assess heat-related risks in the workplace. Available in French only.
 
 ---
 
