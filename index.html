@@ -41,7 +41,7 @@
 
   <div id="resultat"></div>
 
-  <div class="footer">
+  <div class="footer" id="piedDePage">
 	<a href="https://www.cnesst.gouv.qc.ca/sites/default/files/publications/travailler-a-la-chaleur.pdf">
 		<img src="cnesst_image.jpg" alt="CNESST" class="cnesst-image">
 	</a>
@@ -54,5 +54,14 @@
   </div>
 
 	<script src="script.js"></script>
+	<script>
+		function matraduction() {
+			new google.translate.TranslateElement({pageLanguage: 'fr'}, 'tacForm');
+			new google.translate.TranslateElement({pageLanguage: 'fr'}, 'resultat');
+			new google.translate.TranslateElement({pageLanguage: 'fr'}, 'piedDePage');
+		}
+	</script>
+
+	<script src="//translate.google.com/translate_a/element.js?cb=matraduction"></script>
 </body>
 </html>
