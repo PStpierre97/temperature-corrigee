@@ -9,18 +9,17 @@
 
 </head>
 <body>
-
-  <h1>Évaluation du risque thermique</h1>
-
+  <a href="a-propos.html">À propos</a>
+  <h1>🌡️ Évaluation du risque thermique</h1>
   <form id="tacForm">
     <label for="temperature">Température mesurée à l’ombre (°C) :</label>
-    <input type="number" id="temperature" step="0.1" required>
+    <input type="number" id="temperature" required>
 
     <label for="humidity">Humidité relative (%) :</label>
-    <input type="number" id="humidity" step="0.1" required>
+    <input type="number" id="humidity" required>
 
     <label for="exposition">Source des données et exposition :</label>
-    <select id="exposition" required>
+    <select id="exposition">
       <option value="mesure_soleil">Mesure au soleil</option>
       <option value="mesure_ombre">Mesure à l’ombre</option>
       <option value="mesure_interieur">Mesure à l’intérieur</option>
@@ -28,13 +27,10 @@
       <option value="meteo_ombre">Météo - ombre</option>
     </select>
 
-    <label>
-      <input type="checkbox" id="combinaison">
-      Port d’une combinaison en coton
-    </label>
+    <label><input type="checkbox" id="combinaison"> Port d’une combinaison en coton</label>
 
     <label for="travail">Type de travail :</label>
-    <select id="travail" required>
+    <select id="travail">
       <option value="leger">Léger</option>
       <option value="moyen">Moyen</option>
       <option value="lourd">Lourd</option>
@@ -56,7 +52,7 @@
 	<a href="https://www.irsst.qc.ca/prevenir-coup-chaleur-travail/">Outils virtuels produits par l’IRSST pour aider à calculer la durée de ces pauses</a>
     </p>
   </div>
-  
-  <script src="script.js"></script>
+
+	<script src="script.js"></script>
 </body>
 </html>

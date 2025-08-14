@@ -4,12 +4,10 @@ body {
   background-color: #f9f9f9;
   color: #333;
 }
-
 h1 {
   text-align: center;
   color: #00695c;
 }
-
 form {
   max-width: 500px;
   margin: auto;
@@ -18,12 +16,10 @@ form {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
 label {
   display: block;
   margin: 15px 0 5px;
 }
-
 input, select, button {
   width: 100%;
   padding: 8px;
@@ -31,7 +27,6 @@ input, select, button {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-
 button {
   background-color: #00796b;
   color: white;
@@ -39,11 +34,9 @@ button {
   cursor: pointer;
   margin-top: 20px;
 }
-
 button:hover {
   background-color: #004d40;
 }
-
 #resultat {
   margin-top: 30px;
   padding: 15px;
@@ -51,36 +44,29 @@ button:hover {
   text-align: center;
   border-radius: 8px;
 }
-
 .vert { background-color: #b2fab4; }
 .vert-pale { background-color: #d0f0c0; }
 .jaune { background-color: #fff59d; }
 .rouge { background-color: #ef9a9a; }
-
 .footer {
   text-align: center;
   margin-top: 40px;
 }
-
 .cnesst-image {
   width: 150px;
   margin-bottom: 10px;
 }
-
 /* Responsive Design */
 @media (max-width: 600px) {
   body {
     margin: 20px;
   }
-
   form {
     padding: 15px;
   }
-
   input, select, button {
     font-size: 16px;
   }
-
   .cnesst-image {
     width: 100px;
   }
